@@ -1,4 +1,4 @@
-package com.example.mvvmcleanmovies.presentation
+package com.example.mvvmcleanmovies.presentation.viewmodels
 
 import androidx.lifecycle.MutableLiveData
 import com.example.mvvmcleanmovies.domain.model.Movie

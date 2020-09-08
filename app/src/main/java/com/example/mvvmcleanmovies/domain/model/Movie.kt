@@ -14,4 +14,7 @@ data class Movie(
     val adult: Boolean,
     val overview: String,
     val poster_path: String
-)
+) {
+    fun getPoster(): String =
+        "https://image.tmdb.org/t/p/w500/$poster_path"
+}

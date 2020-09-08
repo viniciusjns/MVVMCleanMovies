@@ -1,4 +1,4 @@
-package com.example.mvvmcleanmovies.presentation
+package com.example.mvvmcleanmovies.presentation.viewmodels
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineScope

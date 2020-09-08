@@ -5,7 +5,7 @@ import com.example.mvvmcleanmovies.data.service.APIClientImpl
 import com.example.mvvmcleanmovies.data.service.MovieService
 import com.example.mvvmcleanmovies.data.repository.MovieRepository
 import com.example.mvvmcleanmovies.data.repository.MovieRepositoryImpl
-import com.example.mvvmcleanmovies.presentation.MovieViewModel
+import com.example.mvvmcleanmovies.presentation.viewmodels.MovieViewModel
 import com.example.mvvmcleanmovies.domain.usecase.MovieUseCase
 import com.example.mvvmcleanmovies.domain.usecase.MovieUseCaseImpl
 import org.koin.androidx.viewmodel.dsl.viewModel
@@ -13,7 +13,11 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 
 val vieModelModule = module {
-    viewModel { MovieViewModel(get()) }
+    viewModel {
+        MovieViewModel(
+            get()
+        )
+    }
 }
 
 val useCaseModule = module {
