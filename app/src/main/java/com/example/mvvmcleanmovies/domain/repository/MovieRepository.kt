@@ -1,4 +1,4 @@
-package com.example.mvvmcleanmovies.data.repository
+package com.example.mvvmcleanmovies.domain.repository
 
 import com.example.mvvmcleanmovies.domain.model.Movie
 

@@ -18,7 +18,7 @@ class MVVMCleanApplication : Application() {
         startKoin {
             androidContext(this@MVVMCleanApplication)
             androidLogger()
-            modules(listOf(vieModelModule, useCaseModule, repositoryModule, networkModule))
+            modules(ModuleProvider.modules)
         }
     }
 }
